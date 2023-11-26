@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600&display=swap");
+
+* {
+  margin: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  color-scheme: dark;
+}
+
+html, body, :root{
+  min-height: 100vh;
+
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  // background-image: url(./fond.jpg);
+  // background-size: cover;
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // background-attachment: fixed;
+background-color: rgba(0, 0, 0, 0.349);
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+
+h1{
+  color: #3c7b99;
+  text-shadow: 1px 1px 10px black;
+}
+
+@media screen and (max-width: 425px) {
+  body {
+    background-image: none;
+    background-color: black;
+  }
+}
+
+@media screen and (max-width : 994px ) {
+  body {
+    // background-image: url(./fond2.jpg);
+    background-position: top;
+  }
+}

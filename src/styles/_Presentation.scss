@@ -1,0 +1,139 @@
+.Coucou-presentation {
+  width: 100%;
+  padding: 10px;
+
+
+
+  .first-part {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .Coucou {
+      font-size: 20px;
+
+      p {
+        color: rgba(255, 255, 255, 0.678);
+        border: none;
+        line-height: auto;
+        font-size: 50px;
+      }
+      section {
+        color: #204455;
+        font-family: "Oswald", sans-serif;
+        font-size: 30px;
+        letter-spacing: 0.1em;
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
+        transform: scaleY(150%);
+      }
+      section:hover {
+        letter-spacing: normal;
+      }
+    }
+    .texteAndLogo {
+      display: flex;
+    }
+
+    .text-presentation {
+      padding: 10px 0px;
+      line-height: 30px;
+      margin-bottom: 20px;
+      padding-right: 30px;
+      padding-top: 30px;
+    }
+
+    .container-logo {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+
+      h1 {
+        border-bottom: 1px solid #22333b;
+        padding-bottom: 20px;
+      }
+
+      .Logo-competence {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        width: 100%;
+        border-bottom: 1px solid #22333b;
+        img {
+          width: 15%;
+          padding: 20px 10px;
+          flex: 1;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .Coucou-presentation {
+    padding: 0;
+    .centrer-container {
+      text-align: center;
+    }
+    .first-part {
+      height: 100%;
+      text-align: center;
+      margin-bottom: 80px;
+      p {
+        padding: 0;
+      }
+      .texte-nom-presentation {
+        width: 50%;
+      }
+      .texteAndLogo {
+        flex-direction: column;
+        align-items: center;
+      }
+      .container-logo {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        .Logo-competence {
+          height: 100%;
+          img {
+            width: 15%;
+            padding: 20px 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Coucou-presentation {
+    .first-part {
+      .texte-nom-presentation {
+        width: 80%;
+      }
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 425px) {
+  .Coucou-presentation {
+    .first-part {
+      .texte-nom-presentation {
+        width: 100%;
+        .text-presentation{
+          padding: 0;
+        }
+      }
+      .container-logo {
+        width: 100%;
+        }
+      }
+    }
+  }

@@ -1,0 +1,52 @@
+.Home{
+    height: 100vh;
+
+
+.bloc{
+  clip-path: polygon(0 0, 100% 0, 100% 30%, 0 100%);
+  background-color: #204455;
+  height: 5vh;
+}
+
+.bloc2{
+  clip-path: polygon(0 70%, 100% 0%, 100% 100%, 0 100%);
+  background-color: #204455;
+  height: 5vh;
+
+}
+
+.All{
+    width: 50vw;
+    margin: 0 auto;
+    animation: Presentation-anim 0.5s forwards;
+    transition: 0.5s ease-in-out;
+
+
+
+    @keyframes Presentation-anim {
+        from {
+          transform: translatex(-100%);
+        }
+        to {
+          transform: translatex(0%);
+        }
+      }
+}
+
+
+    }
+
+@media screen and (max-width : 1440px) {
+  .Home{
+  .All{
+    width: 80vw;
+  }}
+}
+
+@media screen and (max-width : 1024px) {
+  .Home{
+  .All{
+    padding-top: 80px;
+    width: 100vw;
+  }}
+}
