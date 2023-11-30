@@ -8,8 +8,11 @@ export default function Home() {
     <div className="Home">
       <div className="bloc"></div>
         <div className="All">
+  
+
 <Presentation />
       <ProjetHome projet={projet} />
+      
       </div>
       <div className="bloc2"></div>
       </div>

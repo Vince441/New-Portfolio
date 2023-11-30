@@ -1,5 +1,8 @@
 .Home{
     height: 100vh;
+    position: relative;
+
+
 
 
 .bloc{
@@ -36,10 +39,25 @@
 
     }
 
+    @media screen and (max-width : 1980px) {
+      .Home{
+      .All{
+        width: 70vw;
+      }}
+    }
+
+    @media screen and (max-width : 1663px) {
+      .Home{
+      .All{
+        width: 80vw;
+      }}
+    }
+
+
 @media screen and (max-width : 1440px) {
   .Home{
   .All{
-    width: 80vw;
+    width: 90vw;
   }}
 }
 
